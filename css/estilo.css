@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+/*Cuerpo del documento*/
+body{
+	background-color: #333333;
+	height: 100%;
+}
+#contenedor{
+	width: 80%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius:10px;
+	background-color: white;
+}
+
+/*cabecera del documento*/
+header{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+}
+header img#logo{
+	height: 80%;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+}
+header img#calidad{
+	float: right;
+	height: 60%
+}
+header h1{
+	font-size: 16px;
+	text-align: center;
+	display: inline-flex;
+	margin: 50px;
+}
+
+#cuerpo{
+	height: 450px;
+}
+.menu, .menu ul li{
+	width: 200px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	height: 20px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	height: 20px;
+}
+.menu ul li a{
+	font-family: TAHOMA;
+	font-size: 16PX;
+	font-style: bold;
+	width: 160px;
+	display: block;
+	text-decoration: none;
+	background-color: #333333;
+	height: 100%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 10px;
+	color:white;
+	margin-left: 15px;
+}
+.menu ul li a:hover{
+	background-color: white;
+	color: #0033ff;
+}
+
+section{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+section aside{
+	background-color: #ff6600;
+	width: 23%;
+	height: 95%;
+	padding-top: 10px;
+	border-radius: 0px 10px 10px 0px;
+}
+section article{
+	background-color: #333333;
+	width: 77%;
+	float: right;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+footer{
+	height: 60px;
+	background-color: white;
+	text-align: center;
+}
+footer img#ecbti{
+	height: 100%;
+
+}
